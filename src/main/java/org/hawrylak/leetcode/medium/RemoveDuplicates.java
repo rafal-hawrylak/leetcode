@@ -1,7 +1,10 @@
-package org.hawrylak.medium;
+package org.hawrylak.leetcode.medium;
 
-public class RemoveDuplicates {
+import org.hawrylak.leetcode.Solution;
 
+public class RemoveDuplicates implements Solution {
+
+    @Override
     public Object run() {
         var k = removeDuplicates(new int[]{1, 1, 1, 2, 2, 3});
         assert k == 5;
